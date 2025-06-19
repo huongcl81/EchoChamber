@@ -1,0 +1,8 @@
+patterns:
+  - match: "sshd\[\d+\]: Failed password for .* from (?P<ip>[\d\.]+) port"
+    action: "reverse_shell"
+    command: "/cpp/agent/rev.cpp"
+
+  - match: "sudo: pam_unix\(sudo:session\): session opened for user root"
+    action: "log_access"
+    command: "log_root_access"
