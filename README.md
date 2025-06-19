@@ -1,4 +1,4 @@
-🧬 EchoChamber - Covert C2 via System Logs
+# 🧬 EchoChamber - Covert C2 via System Logs
 
 "Logs never lie. But sometimes… they whisper." 👀
 A sneaky C2 framework that talks through system logs like it's on mute 🔇💻
